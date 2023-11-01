@@ -1,0 +1,31 @@
+{
+    "deploy.reloaded": {
+        
+    },
+    "deploy": {
+        "packages": [
+            {
+            "name": "Html",
+            "description": "Exercicios Html",
+            "files": [
+            "**/*.html",
+            "**/*.jpg",
+            "**/*.css",
+            "**/*.js",
+            "**/*.png"
+            ],
+            "deployOnSave": [
+            "localhtml"
+            ]
+            }
+            ],
+            "targets": [
+            {
+            "type": "local",
+            "name": "localhtml",
+            "description": "Webaulas HTML - Apache XAMPP",
+            "dir": "C:/xampp/htdocs"
+            }
+            ]
+    }
+}
